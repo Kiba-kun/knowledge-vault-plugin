@@ -1,4 +1,9 @@
 {
+  "name": "knowledge-vault-plugin",
+  "owner": {
+    "name": "Andrii Kibalnikov",
+    "url": "https://github.com/Kiba-kun"
+  },
   "version": "1.0",
   "plugins": [
     {
