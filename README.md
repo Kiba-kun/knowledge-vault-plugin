@@ -11,6 +11,7 @@ Run it in any empty directory to scaffold a complete vault:
 - `CLAUDE.md` — customized for your topic
 - `raw/` — immutable source materials
 - `wiki/` — synthesized knowledge (index + log stubs)
+- `output-artifacts/` — consulting artifacts produced by `/wiki-output`
 - `.claude/skills/` — all wiki workflow skills (project-scoped, not global)
 
 Skills installed into each vault:
@@ -27,17 +28,13 @@ Skills installed into each vault:
 
 ## Installation
 
-Add this plugin to your Claude Code settings:
+Install via the Claude Code marketplace:
 
-```json
-{
-  "plugins": [
-    { "path": "/path/to/vault-plugin" }
-  ]
-}
-```
+1. Open Claude Code → **Settings** → **Plugins**
+2. Search for `knowledge-vault-plugin`
+3. Click **Install**
 
-Or use the `--plugin-dir` flag for local development:
+For local development, clone the repo and load it directly:
 
 ```bash
 claude --plugin-dir /path/to/vault-plugin
