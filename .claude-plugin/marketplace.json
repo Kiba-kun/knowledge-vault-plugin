@@ -14,8 +14,8 @@
         "name": "Andrii Kibalnikov"
       },
       "source": {
-        "type": "github",
-        "repo": "Kiba-kun/knowledge-vault-plugin"
+        "type": "git",
+        "url": "https://github.com/Kiba-kun/knowledge-vault-plugin.git"
       },
       "homepage": "https://github.com/Kiba-kun/knowledge-vault-plugin#readme",
       "license": "MIT",
