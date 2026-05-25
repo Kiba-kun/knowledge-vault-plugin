@@ -56,6 +56,7 @@ Create the following directories (all relative to the current working directory)
 raw/
 wiki/
 wiki/open-questions/
+output-artifacts/
 .claude/
 .claude/skills/
 .claude/skills/wiki-ingest/
@@ -91,6 +92,7 @@ Scope: research, synthesis, and consulting artifacts.
 vault/
 ├── CLAUDE.md          ← this file
 ├── raw/           ← raw, immutable materials — never modify
+├── output-artifacts/  ← consulting artifacts produced by /wiki-output
 └── wiki/
     ├── index.md       ← master catalog
     ├── log.md         ← append-only operation log
