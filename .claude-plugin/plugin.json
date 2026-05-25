@@ -1,0 +1,7 @@
+{
+  "name": "knowledge-vault-plugin",
+  "description": "Scaffolds a personal knowledge base vault with wiki workflow skills",
+  "version": "1.0.0",
+  "author": { "name": "Andrii Kibalnikov" },
+  "license": "MIT"
+}
