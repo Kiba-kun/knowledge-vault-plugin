@@ -28,7 +28,13 @@ Skills installed into each vault:
 
 ## Installation
 
-Install via the Claude Code marketplace:
+**1. Add the marketplace** (one-time, in any Claude Code session):
+
+```
+/plugin marketplace add Kiba-kun/knowledge-vault-plugin
+```
+
+**2. Install the plugin:**
 
 1. Open Claude Code → **Settings** → **Plugins**
 2. Search for `knowledge-vault-plugin`
