@@ -14,10 +14,8 @@
         "name": "Andrii Kibalnikov"
       },
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/Kiba-kun/knowledge-vault-plugin.git",
-        "path": ".",
-        "ref": "main",
         "sha": "bffc059db61fdfc041aed083340fe9d2d34779d7"
       },
       "homepage": "https://github.com/Kiba-kun/knowledge-vault-plugin#readme",
